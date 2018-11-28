@@ -1,0 +1,145 @@
+.navbar{
+    border-bottom: 1px solid lightgray;
+}
+.navbar-brand{
+    font-size: 40px;
+    color:black;
+    font-weight: 700;
+}
+.mac-style {
+    width: 120px;
+    border-radius: 25px;
+    border:1px solid gray;
+    -webkit-transition: width 0.25s ease-in-out;
+    -moz-transition:width 0.25s ease-in-out;
+    -o-transition: width 0.25s ease-in-out;
+    transition: width 0.25s ease-in-out;
+    margin-top: 20px;
+    padding: 5px
+ }
+
+.mac-style:focus{
+    width: 250px;
+    border-radius: 12px;
+    border:1px solid black;
+    outline: none
+}
+#con1{
+    margin-top: 50px;
+}
+.card{
+    border: 0;
+    border-bottom:1px solid lightgray;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+.card-img{
+    cursor: pointer;
+}
+.card-img:hover,.image:hover{
+    position: relative;
+    top:-7px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+.card-text{
+    font-size: 15px;
+    font-weight: 250;
+    color: rgb(10, 9, 9);
+    font-family: PT Sans Caption,sans-serif;
+    display:block;
+}
+.pre{
+    font-size: 25px;
+    font-weight: 650;
+    color: black;
+    line-height: 1.5;
+    font-family: PT Serif,serif;
+}
+#side{
+    margin-top: 50px;
+    border: 0;
+}
+.card-header{
+    border:0;
+}
+#con2 a{
+    font-size: 10px;
+    font-weight: 700;
+}
+.h6{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+#jum1{
+    margin-top:50px;
+    margin: 0
+}
+#email2{
+    width: 35%
+}
+#row2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.col-md-4{
+    padding: 0;
+}
+.col-md-3{
+    padding: 0;
+}
+.instagram .image img:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+.instagram .image img{
+    object-fit: cover;
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.insta-text .btn{
+
+        position: absolute;
+        top: 245%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        color: white;
+        font-size: 13px;
+        font-weight: 700;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+        z-index:100;
+
+}
+.nav-item-sec{
+    border-right: 1px solid gray;
+    border-right-width: 80%
+}
+#con3{
+    background-color: black;
+}
+#endnav{
+    padding-top: 20px;
+}
+#contact {
+    border-right: 0px;
+}
+.nav-link{
+    color:gray;
+    font-size: 18px;
+    font-weight: 200;
+}
+.nav-link:hover{
+    color:white
+}
+hr{
+    color :gray;
+    width:80%
+}
