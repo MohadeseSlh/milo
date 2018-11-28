@@ -55,6 +55,13 @@
     line-height: 1.5;
     font-family: PT Serif,serif;
 }
+.pre2{
+    font-size: 45px;
+    font-weight: 600;
+    color: black;
+    line-height: 1.5;
+    font-family: PT Serif,serif;
+}
 #side{
     margin-top: 50px;
     border: 0;
@@ -139,7 +146,53 @@
 .nav-link:hover{
     color:white
 }
+/*second page-------------------------------------------------------------------------------------------------*/
 hr{
     color :gray;
     width:80%
+}
+strong{
+    font-weight: bold
+}
+.col-md-2 img{
+padding:15px
+}
+#text{
+    padding:15px;
+}
+#reply{
+    text-decoration: none;
+    padding-right: 7px;
+}
+#sec-row,#response{
+    margin-top: 20px;
+}
+.form-item{
+    width: 400px;
+    border-radius: 10px;
+    height: 35px;
+    border:1px solid gray;
+    outline: none;
+    padding-left: 20px;
+}
+.form-item:hover{
+    border:1px solid black;
+    
+}
+.form-item-response{
+    width:100%;
+    border-radius: 10px;
+    height: 80px;
+    border:1px solid gray;
+    outline: none;
+    padding-left: 20px;
+}
+.form-item-response:hover{
+    border:1px solid black;
+}
+#btn2{
+    margin-top: 20px;
+}
+ul li{
+    text-align: left
 }
